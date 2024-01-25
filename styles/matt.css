@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "AGaramondPro-Regular";
+  src: url("/assets/fonts/AGaramondPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AGaramondPro-Bold";
+  src: url("/assets/fonts/AGaramondPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AGaramondPro-Semibold";
+  src: url("/assets/fonts/AGaramondPro-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AGaramondPro-Italic";
+  src: url("/assets/fonts/AGaramondPro-Italic.woff2") format("woff2");
+}
+
+body {
+  font-family: "AGaramondPro-Regular", sans-serif;
+}
+
+#content {
+  padding: 40px 60px;
+}
+
+h1,
+h2 {
+  font-family: "AGaramondPro-Bold", sans-serif;
+}
+
+h3,
+h4,
+strong {
+  font-family: "AGaramondPro-Semibold", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  margin: 10px 0 15px 0;
+}
+
+hr {
+  border-width: 0;
+  height: 2px;
+  background-color: #000;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.two-column-list {
+  list-style: none;
+  padding: 0;
+}
+
+.two-column-list > li {
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.two-column-list > li > h4,
+.two-column-list > li > .date {
+  float: left;
+  text-align: left;
+  width: 20%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.two-column-list > li > h3,
+.two-column-list > li > p,
+.two-column-list > li > ul {
+  float: right;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#experience > li {
+  margin: 18px 0 12px 0;
+}
+
+#experience > li > h3 {
+  margin-bottom: 12px;
+}
+
+#experience > li > ul {
+  margin: 0 0 12px 0;
+}
+
+#experience > li > p {
+  margin-bottom: 12px;
+}
+
+.stack {
+  font-family: "AGaramondPro-Italic", sans-serif;
+}
+
+@media print {
+  body {
+    font-size: 0.7em;
+  }
+
+  #content {
+    padding: 0;
+    margin: 0;
+  }
+}
