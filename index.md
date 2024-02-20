@@ -19,7 +19,7 @@ Hard-working, ever-curious, quality-focused, full-stack software engineer lookin
 - #### Programming Languages
   Javascript, Typescript, C#, Python, Elixir, Rust
 - #### Frameworks
-  Serverless, Terraform, React, Next.js, NestJS, Jest, Cypress, HTMX, Svelte
+  Serverless, Terraform, React, Next.js, NestJS, Jest, Cypress, HTMX, Svelte, Phoenix
 - #### GCP Services
   CloudFunctions, CA, KMS, Pubsub, CloudScheduler
 - #### AWS Services
